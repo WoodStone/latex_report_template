@@ -1,0 +1,56 @@
+
+\documentclass[abstract=on]{article}
+\usepackage{fullpage}
+\usepackage{array}
+\usepackage[utf8]{inputenc}
+%\usepackage{hyperref}
+\usepackage{url}
+\usepackage{listings}
+\usepackage{enumitem}
+
+\lstset{basicstyle=\ttfamily}
+
+%\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage[table,xcdraw]{xcolor}
+%\usepackage{amsmath}
+\usepackage{float}
+\usepackage{mathtools}
+
+%paragraph indentation
+\setlength{\parindent}{0em} 
+
+%paragraph spacing
+\setlength{\parskip}{1em}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+% File with macros and useful stuff
+\input{macros}
+
+% Optional, changes line height
+\renewcommand{\baselinestretch}{1.4}
+
+\setlist{nolistsep}
+
+\begin{document}
+% The title page, edit if you want to customize it
+%\input{title.tex}
+\mytitlepage{TDTXXXX Course Name}{Exercise X - Theme}{Author}
+
+%\tableofcontents
+
+% Main matter - edit corresponding file under content/ to change
+% Example:
+% \input{content/task1.tex}
+
+
+% Bibliography - edit references.bib and use the \cite command in text
+\bibliographystyle{plain}
+%\bibliography{references}
+
+% Appendix
+\end{document}
